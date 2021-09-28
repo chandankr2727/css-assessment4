@@ -1,0 +1,130 @@
+.div1{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, red, green, lightgreen, limegreen, yellow);
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+.div2{
+    width: 66%;
+    height: 70px;
+    border: red solid 4px;
+    text-align: center;
+    background-color: rgb(147, 233, 233);
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 14px;
+    font-size: 16px;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    border: black 3px solid;
+    gap: 15px;
+    margin-top: 30px;
+    background-color: rgb(152, 247, 152);
+    border-radius: 15px;
+}
+.child{
+    border: black 2px solid;
+    border-radius: 12px;
+    text-align: center;
+    background-color: cyan;
+    font-weight: 800;
+    font-size: large;
+    
+}
+.child4{
+    grid-column: 2;
+}
+.div3{
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(90deg, red, orange, rgb(245, 235, 92), orange, red);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 800;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    height: 7em;
+    background: radial-gradient( blue,  dodgerblue, skyblue, lightgreen );
+    padding-top: 40px;
+    margin-top: 10px;
+}
+.card{
+    border: red 2px solid;
+    background-color: yellow;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+    text-align: center;
+    width: 17%;
+    line-height: 30px;
+    border-radius: 12px;
+    font-size: large;
+    font-weight: 600;
+}
+.div4{
+    width: 100%;
+    height: 46px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(248, 68, 24);
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    gap: 15px;
+}
+.childa{
+    background-color: rgb(91, 214, 91);
+    color: white;
+    font-size: 33px;
+}
+.childb{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-size: 33px;
+}
+.childc{
+    background-color: rgb(102, 16, 199);
+    color: white;
+    font-size: 30px;
+}
+.childd{
+    background-color: rgb(233, 161, 29);
+    color: white;
+    grid-column: 1/4;
+    grid-row: 2/7;
+    font-size: 25px;
+}
+.childe{
+    background-color: rgb(34, 25, 25);
+    color: white;
+    grid-column: 4;
+    grid-row: 1/7;
+    font-size: 21px;
+}
+.last{
+    background-color: rgb(31, 235, 174);
+    font-size: 30px;
+    text-align: center;
+    height: 42px;
+    margin-top: 20px;
+    font-weight: 800;
+}
