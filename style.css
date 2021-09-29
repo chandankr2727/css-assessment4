@@ -59,6 +59,7 @@
     height: 7em;
     background: radial-gradient( blue,  dodgerblue, skyblue, lightgreen );
     padding-top: 40px;
+    padding-bottom: 40px;
     margin-top: 10px;
 }
 .card{
